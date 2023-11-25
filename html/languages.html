@@ -1,40 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Daniel Reyt</title>
-    <link rel="stylesheet" href="../css/general.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Daniel Reyt</title>
+  <link rel="stylesheet" href="../css/general.css">
 </head>
+
 <body class="bg-page">
-    <script src="../js/nav.js"></script>
-    <div class="row bg-nav-footer">
-        <img src="../icon.gif" class="icon" alt="">
-        <button style="margin-left: 20px;" onclick="redirect('./presentation.html')" class="button bg-button">Présentation</button>
-        <button style="margin-left: 20px;" onclick="redirect('./languages.html')" class="button bg-button">Langages</button>
-        <button style="margin-left: 20px;" onclick="redirect('./contact.html')" class="button bg-button">Me contacter</button>
-    </div>
+  <script src="../js/nav.js"></script>
+  <div class="row bg-nav-footer">
+    <img src="../icon.gif" class="icon" alt="">
+    <button style="margin-left: 20px;" onclick="redirect('./presentation.html')"
+      class="button bg-button">Présentation</button>
+    <button style="margin-left: 20px;" onclick="redirect('./languages.html')" class="button bg-button">Langages</button>
+    <button style="margin-left: 20px;" onclick="redirect('./contact.html')" class="button bg-button">Me
+      contacter - NON FONCTIONNEL</button>
+  </div>
 
-    <div class="row container bg-container">
-        <div class="card">
-            <div class="card-info">
-              <p class="title">Magic Card</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-info">
-              <p class="title">Magic Card</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-info">
-              <p class="title">Magic Card</p>
-            </div>
-          </div>
+  <div class="row container bg-container container-language">
+    <div class="card-language">
+      <div class="card-info">
+        <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript"><img class="image" src="../icons/javascript.png"
+            alt=""></a>
+      </div>
     </div>
+    <div class="card-language">
+      <div class="card-info">
+        <a href="https://developer.mozilla.org/fr/docs/Web/HTML"><img class="image" src="../icons/html.png" alt=""></a>
+      </div>
+    </div>
+    <div class="card-language">
+      <div class="card-info">
+        <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Reference"><img class="image" src="../icons/css.png"
+            alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="row container bg-container container-language">
+    <div class="card-language">
+      <div class="card-info">
+        <a href="https://angular.io/docs"><img class="image" src="../icons/angular.png" alt=""></a>
+      </div>
+    </div>
+    <div class="card-language">
+      <div class="card-info">
+        <a href="https://nodejs.org/en/docs"><img class="image" src="../icons/node.png" alt=""></a>
+      </div>
+    </div>
+    <div class="card-language">
+      <div class="card-info">
+        <a href="https://dev.mysql.com/doc/"><img class="image" src="../icons/mysql.png" alt=""></a>
+      </div>
+    </div>
+  </div>
 
-    <div class="row footer bg-nav-footer">
-        <button style="width: calc((25%*3) + (20px*3) + 100px) !important;" class="button bg-button">Condition légales</button>
-    </div>
+  <div class="row footer bg-nav-footer">
+    <button style="width: calc((25%*3) + (20px*3) + 100px) !important;" class="button bg-button">Condition
+      légales</button>
+  </div>
 </body>
+
 </html>
